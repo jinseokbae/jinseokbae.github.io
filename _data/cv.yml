@@ -84,8 +84,8 @@
     - institution: Python, C++, JavaScript, MATLAB
       year: Basic
     - institution: PyTorch, JAX, Tensorflow
-      year: DL/AI
-    - institution: Linux, Windows, MAC, Docker,
+      year: AI
+    - institution: Linux, Windows, Mac, Docker,
       year: Infra
     - institution: Isaac Gym, Brax, Webots, Mujoco
       year: Simulators
