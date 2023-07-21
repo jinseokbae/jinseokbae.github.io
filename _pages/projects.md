@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: blogs
+permalink: /blogs/
+description: Below are several blogs that I have authored throughout my current and past experiences.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: ["@Intel AI"]
 horizontal: false
 ---
 
