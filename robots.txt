@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://jinseokbae.github.ioal-folio/sitemap.xml
