@@ -10,10 +10,10 @@ email: capoo95@snu.ac.kr
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Personal homepage.
 footer_text: 
-keywords: kai yao, kai, kaikaiyao, kai yao edinburgh, kai yao johns hopkins, machine learning, deep learning, fairness, privacy, security  # add your own keywords or leave empty
+keywords: jinseok, jinseokbae, jinseok bae snu, jinseok bae seoul national university, computer graphics, robotics, animation, reinforcement learning, multi-agent system  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: uoe.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 🧑‍💻 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://jinseokbae.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
@@ -21,7 +21,7 @@ last_updated: false # set to true if you want to display last updated in the foo
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
-# Theme
+# Theme 
 # -----------------------------------------------------------------------------
 
 # code highlighter theme
@@ -68,13 +68,13 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: kaikaiyao # your GitHub user name
+github_username: jinseokbae # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
-linkedin_username: kai-yao-ai-algorithm # your LinkedIn user name
+linkedin_username: jinseok-bae-9bb5b511a # your LinkedIn user name
 telegram_username: # your Telegram user name
-scholar_userid: Qah0vJkAAAAJ # your Google Scholar ID
+scholar_userid: 1CApxx0AAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 orcid_id: # your ORCID ID
