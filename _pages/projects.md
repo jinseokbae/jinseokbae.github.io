@@ -3,7 +3,7 @@ layout: page
 title: blogs
 permalink: /blogs/
 description: Below are several blogs that I have authored throughout my current and past experiences.
-nav: true
+nav: false
 nav_order: 2
 display_categories: ["@Intel AI"]
 horizontal: false
