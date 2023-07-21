@@ -9,9 +9,9 @@ profile:
   image: jinseokbae.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Electrical and Computer Engineering</p>
+    <p>Electrical and Computer</p>
     <p>Seoul National University</p>
-    <p>Seoul, Republic of Korea</p>
+    <p>Republic of Korea</p>
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
