@@ -1,5 +1,40 @@
 ---
 ---
+@article{jang2023pmp,
+  title={Dynamic Mesh Recovery from Partial Point Cloud Sequence},
+  author={Jang, Hojun and Kim, Minkwan and Bae, Jinseok and Kim, Young Min},
+  year={2023},
+  abstract = {The exact 3D dynamics of the human body provides crucial evidence to analyze consequences of the physical interaction between the body and the environment, which can eventually assist everyday activities in a wide range of applications. However, optimizing for 3D configurations from image observation requires a significant amount of computation, whereas real-world 3D measurements often suffer from noisy observation or complex occlusion. We resolve the challenge by learning a latent distribution representing strong temporal priors. We use a conditional variational autoencoder (CVAE) architecture with transformer to train the motion priors with a large-scale motion datasets. Then our feature follower effectively aligns the feature spaces of noisy, partial observation with the necessary input for pre-trained motion priors, and quickly recovers a complete mesh sequence of motion. We demonstrate that the transformer-based autoencoder can collect necessary spatio-temporal correlations robust to various adversaries, such as missing temporal frames, or noisy observation under severe occlusion. Our framework is general and can be applied to recover the full 3D dynamics of other subjects with parametric representations.},
+  bibtex_show = {false},
+  abbr = {ICCV},
+}
+
+@article{bae2023pmp,
+  title={PMP: Learning to Physically Interact with Environments using Part-wise Motion Priors},
+  author={Bae, Jinseok and Won, Jungdam and Lim, Donggeun and Min, Cheol-Hui and Kim, Young Min},
+  journal={arXiv preprint arXiv:2305.03249},
+  year={2023},
+  abstract = {We present a method to animate a character incorporating multiple part-wise motion priors (PMP). While previous works allow creating realistic articulated motions from reference data, the range of motion is largely limited by the available samples. Especially for the interaction-rich scenarios, it is impractical to attempt acquiring every possible interacting motion, as the combination of physical parameters increases exponentially. The proposed PMP allows us to assemble multiple part skills to animate a character, creating a diverse set of motions with different combinations of existing data. In our pipeline, we can train an agent with a wide range of part-wise priors. Therefore, each body part can obtain a kinematic insight of the style from the motion captures, or at the same time extract dynamics-related information from the additional part-specific simulation. For example, we can first train a general interaction skill, e.g. grasping, only for the dexterous part, and then combine the expert trajectories from the pre-trained agent with the kinematic priors of other limbs. Eventually, our whole-body agent learns a novel physical interaction skill even with the absence of the object trajectories in the reference motion sequence. },
+  bibtex_show = {true},
+  abbr = {SIGGRAPH},
+  paper = {https://arxiv.org/abs/2305.03249},
+  video = {https://www.youtube.com/watch?v=WdLGvKdNG-0&t=37s},
+}
+
+@inproceedings{bae2022neural,
+  title={Neural marionette: Unsupervised learning of motion skeleton and latent dynamics from volumetric video},
+  author={Bae, Jinseok and Jang, Hojun and Min, Cheol-Hui and Choi, Hyungun and Kim, Young Min},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={36},
+  number={1},
+  pages={86--94},
+  year={2022},
+  abstract = {We present Neural Marionette, an unsupervised approach that discovers the skeletal structure from a dynamic sequence and learns to generate diverse motions that are consistent with the observed motion dynamics. Given a video stream of point cloud observation of an articulated body under arbitrary motion, our approach discovers the unknown low-dimensional skeletal relationship that can effectively represent the movement. Then the discovered structure is utilized to encode the motion priors of dynamic sequences in a latent structure, which can be decoded to the relative joint rotations to represent the full skeletal motion. Our approach works without any prior knowledge of the underlying motion or skeletal structure, and we demonstrate that the discovered structure is even comparable to the hand-labeled ground truth skeleton in representing a 4D sequence of motion. The skeletal structure embeds the general semantics of possible motion space that can generate motions for diverse scenarios. We verify that the learned motion prior is generalizable to the multi-modal sequence generation, interpolation of two poses, and motion retargeting to a different skeletal structure. },
+  bibtex_show = {true},
+  abbr = {AAAI},
+  paper = {https://arxiv.org/abs/2202.08418},
+  code = {https://github.com/jinseokbae/neural_marionette},
+}
 
 @inproceedings {10.2312:egs.20211023,
   booktitle = {Eurographics 2021 - Short Papers},
@@ -13,6 +48,7 @@
   DOI = {10.2312/egs.20211023},
   abstract = {We present an end-to-end algorithm that can automatically rig a given 3D character such that it is ready for 3D animation. The animation of a virtual character requires the skeletal motion defined with bones and joints, and the corresponding deformation of the mesh represented with skin weights. While the conventional animation pipeline requires the initial 3D character to be in the predefined default pose, our pipeline can rig a 3D character in arbitrary pose. We handle the increased ambiguity by fixing the skeletal topology and solving for the full deformation space. After the skeletal positions and orientations are fully discovered, we can deform the provided 3D character into the default pose, from which we can animate the character with the help of recent motion-retargeting techniques. Our results show that we can successfully animate initially deformed characters, which was not possible with previous works.},
   bibtex_show={true},
+  abbr = {EuroGraphics},
 	paper = {https://diglib.eg.org/handle/10.2312/egs20211023},
   video = {https://www.youtube.com/watch?v=1UVNbxYLkE8},
   code = {https://github.com/whitealex95/autorigging-bipedal}
@@ -26,6 +62,7 @@
   year={2021},
   abstract = {We present GATSBI, a generative model that can transform a sequence of raw observations into a structured latent representation that fully captures the spatio-temporal context of the agent's actions. In vision-based decision-making scenarios, an agent faces complex high-dimensional observations where multiple entities interact with each other. The agent requires a good scene representation of the visual observation that discerns essential components and consistently propagates along the time horizon. Our method, GATSBI, utilizes unsupervised object-centric scene representation learning to separate an active agent, static background, and passive objects. GATSBI then models the interactions reflecting the causal relationships among decomposed entities and predicts physically plausible future states. Our model generalizes to a variety of environments where different types of robots and objects dynamically interact with each other. We show GATSBI achieves superior performance on scene decomposition and video prediction compared to its state-of-the-art counterparts.},
 	bibtex_show={true},
+  abbr = {CVPR},
 	paper = {https://arxiv.org/abs/2104.04275},
   video = {https://www.youtube.com/watch?v=nAf87_0T5CE},
 }
