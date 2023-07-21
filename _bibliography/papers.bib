@@ -1,81 +1,14 @@
 ---
 ---
 
-@article{yao2019cell,
-  title={Cell type classification and unsupervised morphological phenotyping from low-resolution images using deep learning},
-  author={Yao, Kai and Rochman, Nash D and Sun, Sean X},
-  journal={Scientific Reports},
-  volume={9},
-  number={1},
-  pages={1--13},
-  year={2019},
-  publisher={Springer},
-  abstract = {Convolutional neural networks (ConvNets) have proven to be successful in both the classification and semantic segmentation of cell images. Here we establish a method for cell type classification utilizing images taken with a benchtop microscope directly from cell culture flasks, eliminating the need for a dedicated imaging platform. Significant flask-to-flask morphological heterogeneity was discovered and overcome to support network generalization to novel data. Cell density was found to be a prominent source of heterogeneity even when cells are not in contact. For the same cell types, expert classification was poor for single-cell images and better for multi-cell images, suggesting experts rely on the identification of characteristic phenotypes within subsets of each population. We also introduce Self-Label Clustering (SLC), an unsupervised clustering method relying on feature extraction from the hidden layers of a ConvNet, capable of cellular morphological phenotyping. This clustering approach is able to identify distinct morphological phenotypes within a cell type, some of which are observed to be cell density dependent. Finally, our cell classification algorithm was able to accurately identify cells in mixed populations, showing that ConvNet cell type classification can be a label-free alternative to traditional cell sorting and identification.},
-	abbr = {SciRep},
-	website = {https://www.nature.com/articles/s41598-019-50010-9},
+@article{min2021gatsbi,
+  title={Gatsbi: Generative agent-centric spatio-temporal object interaction},
+  author={Min, Cheol-Hui and Bae, Jinseok and Lee, Junho and Kim, Young Min},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={3074--3083},
+  year={2021},
+  abstract = {We present GATSBI, a generative model that can transform a sequence of raw observations into a structured latent representation that fully captures the spatio-temporal context of the agent's actions. In vision-based decision-making scenarios, an agent faces complex high-dimensional observations where multiple entities interact with each other. The agent requires a good scene representation of the visual observation that discerns essential components and consistently propagates along the time horizon. Our method, GATSBI, utilizes unsupervised object-centric scene representation learning to separate an active agent, static background, and passive objects. GATSBI then models the interactions reflecting the causal relationships among decomposed entities and predicts physically plausible future states. Our model generalizes to a variety of environments where different types of robots and objects dynamically interact with each other. We show GATSBI achieves superior performance on scene decomposition and video prediction compared to its state-of-the-art counterparts.},
 	bibtex_show={true},
-	pdf = {sci_rep_cell_type_classification.pdf}
-}
-
-@article{perez2019yap,
-  title={YAP and TAZ regulate cell volume},
-  author={Perez-Gonzalez, Nicolas A and Rochman, Nash D and Yao, Kai and Tao, Jiaxiang and Le, Minh-Tam Tran and Flanary, Shannon and Sablich, Lucia and Toler, Ben and Crentsil, Eliana and Takaesu, Felipe and others},
-  journal={Journal of Cell Biology},
-  volume={218},
-  number={10},
-  pages={3472--3488},
-  year={2019},
-  publisher={Rockefeller University Press},
-  abstract = {How mammalian cells regulate their physical size is currently poorly understood, in part due to the difficulty in accurately quantifying cell volume in a high-throughput manner. Here, using the fluorescence exclusion method, we demonstrate that the mechanosensitive transcriptional regulators YAP (Yes-associated protein) and TAZ (transcriptional coactivator with PDZ-binding motif) are regulators of single-cell volume. The role of YAP/TAZ in volume regulation must go beyond its influence on total cell cycle duration or cell shape to explain the observed changes in volume. Moreover, for our experimental conditions, volume regulation by YAP/TAZ is independent of mTOR. Instead, we find that YAP/TAZ directly impacts the cell division volume, and YAP is involved in regulating intracellular cytoplasmic pressure. Based on the idea that YAP/TAZ is a mechanosensor, we find that inhibiting myosin assembly and cell tension slows cell cycle progression from G1 to S. These results suggest that YAP/TAZ may be modulating cell volume in combination with cytoskeletal tension during cell cycle progression.},
-	abbr = {JCB},
-	website = {https://rupress.org/jcb/article/218/10/3472/120715/YAP-and-TAZ-regulate-cell-volumeYAP-and-TAZ},
-	bibtex_show={true},
-	pdf = {jcb_yaptaz.pdf}
-}
-
-@article{yao2020ctrl,
-  title={CTRL--a label-free artificial intelligence method for dynamic measurement of single-cell volume},
-  author={Yao, Kai and Rochman, Nash D and Sun, Sean X},
-  journal={Journal of Cell Science},
-  volume={133},
-  number={7},
-  pages={jcs245050},
-  year={2020},
-  publisher={The Company of Biologists Ltd},
-  abstract = {Measuring the physical size of a cell is valuable in understanding cell growth control. Current single-cell volume measurement methods for mammalian cells are labor intensive, inflexible and can cause cell damage. We introduce CTRL: Cell Topography Reconstruction Learner, a label-free technique incorporating the deep learning algorithm and the fluorescence exclusion method for reconstructing cell topography and estimating mammalian cell volume from differential interference contrast (DIC) microscopy images alone. The method achieves quantitative accuracy, requires minimal sample preparation, and applies to a wide range of biological and experimental conditions. The method can be used to track single-cell volume dynamics over arbitrarily long time periods. For HT1080 fibrosarcoma cells, we observe that the cell size at division is positively correlated with the cell size at birth (sizer), and there is a noticeable reduction in cell size fluctuations at 25% completion of the cell cycle in HT1080 fibrosarcoma cells.},
-  abbr = {JCS},
-	website = {https://journals.biologists.com/jcs/article/133/7/jcs245050/224905/CTRL-a-label-free-artificial-intelligence-method},
-	bibtex_show={true},
-	pdf = {jcs_ctrl.pdf}
-}
-
-@article{rochman2020single,
-  title={Single cell volume measurement utilizing the fluorescence exclusion method (FXm)},
-  author={Rochman, Nash D and Yao, Kai and Gonzalez, Nicolas A Perez and Wirtz, Denis and Sun, Sean X},
-  journal={Bio-protocol},
-  volume={10},
-  number={12},
-  pages={e3652--e3652},
-  year={2020},
-  abstract = {The measurement of single cell size remains an obstacle towards a deeper understanding of cell growth control, tissue homeostasis, organogenesis, and a wide range of pathologies. Recent advances have placed a spotlight on the importance of cell volume in the regulation of fundamental cell signaling pathways including those known to orchestrate progression through the cell cycle. Here we provide our protocol for the Fluorescence Exclusion Method (FXm); references to the development of FXm; and a brief outlook on future advances in image analysis which may expand the range of problems studied utilizing FXm as well as lower the barrier to entry for groups interested in adding cell volume measurements into their experimental repertoire.},
-  abbr = {BioProtocol},
-	website = {https://en.bio-protocol.org/en/bpdetail?id=3652&type=0},
-	bibtex_show={true},
-	pdf = {bioprotocol_singlecellvolume.pdf}
-}
-
-@article{zhang2016phantom,
-  title={Phantom-based experimental validation of fast virtual deployment of self-expandable stents for cerebral aneurysms},
-  author={Zhang, Qianqian and Meng, Zhuangyuan and Zhang, Ying and Yao, Kai and Liu, Jian and Zhang, Yisen and Jing, Linkai and Yang, Xinjian and Paliwal, Nikhil and Meng, Hui and others},
-  journal={BioMedical Engineering OnLine},
-  volume={15},
-  number={2},
-  pages={431--437},
-  year={2016},
-  publisher={BioMed Central},
-  abstract = {Endovascular intervention using a stent is a mainstream treatment for cerebral aneurysms. To assess the effect of intervention strategies on aneurysm hemodynamics, we have developed a fast virtual stenting (FVS) technique to simulate stent deployment in patient-specific aneurysms. However, quantitative validation of the FVS against experimental data has not been fully addressed. In this study, we performed in vitro analysis of a patient-specific model to illustrate the realism and usability of this novel FVS technique.},
-	abbr = {BMEOL},
-	website = {https://biomedical-engineering-online.biomedcentral.com/articles/10.1186/s12938-016-0250-6},
-	bibtex_show={true},
-	pdf = {biomed_phantom-based.pdf}
+	paper = {https://arxiv.org/abs/2104.04275},
+  video = {https://www.youtube.com/watch?v=nAf87_0T5CE},
 }
