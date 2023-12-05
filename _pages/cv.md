@@ -4,5 +4,5 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 4
-cv_pdf: jinseokbae_cv_230721.pdf
+cv_pdf: cv_jinseokbae_2023_dec.pdf
 ---
