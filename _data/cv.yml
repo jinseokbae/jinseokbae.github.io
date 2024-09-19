@@ -27,6 +27,16 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Research Intern
+      institution: Roblox, United States
+      year: 2024.06 - 2024.09
+      # description:
+      #   - Description 1.
+      #   - Description 2.
+      #   - title: Description 3.
+      #     contents:
+      #       - Sub-description 1.
+      #       - Sub-description 2.
     - title: AI Researcher
       institution: LG AI Research, Republic of Korea
       year: 2022.01 - 2023.07
@@ -37,7 +47,7 @@
       #     contents:
       #       - Sub-description 1.
       #       - Sub-description 2.
-    - title: Internship
+    - title: Undergraduate Internship
       institution: Samsung Electronics, Republic of Korea
       year: 2019.01 - 2019.02
       # description:
