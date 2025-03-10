@@ -1,12 +1,31 @@
 ---
 ---
-@article{jang2023pmp,
+@article{bae2023pmp,
+  title={Versatile Physics-based Character Control with Hybrid Latent Representation},
+  author={Bae, Jinseok and Won, Jungdam and Lim, Donggeun and Hwang, Inwoo and Kim, Young Min},
+  year={2025},
+  abstract = {We present a versatile latent representation that enables physically simulated character to efficiently utilize motion priors.
+  To build a powerful motion embedding that is shared across multiple tasks, the physics controller should employ rich latent space that is easily explored and capable of generating high-quality motion.
+We propose integrating continuous and discrete latent representations to build a versatile motion prior that can be adapted to a wide range of challenging control tasks.
+Specifically, we build a discrete latent model to capture distinctive posterior distribution without collapse, and simultaneously augment the sampled vector with the continuous residuals to generate high-quality, smooth motion without jittering. 
+We further incorporate Residual Vector Quantization, which not only maximizes the capacity of the discrete motion prior, but also efficiently abstracts the action space during the task learning phase.
+We demonstrate that our agent can produce diverse yet smooth motions simply by traversing the learned motion prior through unconditional motion generation.
+Furthermore, our model robustly satisfies sparse goal conditions with highly expressive natural motions, including head-mounted device tracking and motion in-betweening at irregular intervals, which could not be achieved with existing latent representations.},
+  bibtex_show = {false},
+  abbr = {Eurographics},
+}
+
+@article{jang2023dynamic,
   title={Dynamic Mesh Recovery from Partial Point Cloud Sequence},
   author={Jang, Hojun and Kim, Minkwan and Bae, Jinseok and Kim, Young Min},
   year={2023},
   abstract = {The exact 3D dynamics of the human body provides crucial evidence to analyze consequences of the physical interaction between the body and the environment, which can eventually assist everyday activities in a wide range of applications. However, optimizing for 3D configurations from image observation requires a significant amount of computation, whereas real-world 3D measurements often suffer from noisy observation or complex occlusion. We resolve the challenge by learning a latent distribution representing strong temporal priors. We use a conditional variational autoencoder (CVAE) architecture with transformer to train the motion priors with a large-scale motion datasets. Then our feature follower effectively aligns the feature spaces of noisy, partial observation with the necessary input for pre-trained motion priors, and quickly recovers a complete mesh sequence of motion. We demonstrate that the transformer-based autoencoder can collect necessary spatio-temporal correlations robust to various adversaries, such as missing temporal frames, or noisy observation under severe occlusion. Our framework is general and can be applied to recover the full 3D dynamics of other subjects with parametric representations.},
-  bibtex_show = {false},
+  bibtex_show = {true},
   abbr = {ICCV},
+  paper = {https://openaccess.thecvf.com/content/ICCV2023/html/Jang_Dynamic_Mesh_Recovery_from_Partial_Point_Cloud_Sequence_ICCV_2023_paper.html},
+  video = {https://www.youtube.com/watch?v=OgineYrkgRE},
+  page = {https://hojunjang17.github.io/DynamicMeshRecovery/},
+  code = {https://github.com/hojunJang17/DynamicMeshRecovery},
 }
 
 @article{bae2023pmp,

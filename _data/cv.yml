@@ -88,19 +88,19 @@
       #   - Description 1.
       #   - Description 2.
 
-- title: Skills
-  type: time_table
-  contents:
-    - institution: Python, C++, JavaScript, MATLAB
-      year: Basic
-    - institution: PyTorch, JAX, Tensorflow
-      year: AI
-    - institution: Linux, Windows, Mac, Docker,
-      year: Infra
-    - institution: Isaac Gym, Brax, Webots, Mujoco
-      year: Simulators
-    - institution: OpenGL, WebGL, Blender, Unity
-      year: Graphics
-    - institution: Korean, English, Japanese
-      year: Language
+# - title: Skills
+#   type: time_table
+#   contents:
+#     - institution: Python, C++, JavaScript, MATLAB
+#       year: Basic
+#     - institution: PyTorch, JAX, Tensorflow
+#       year: AI
+#     - institution: Linux, Windows, Mac, Docker,
+#       year: Infra
+#     - institution: Isaac Gym, Brax, Webots, Mujoco
+#       year: Simulators
+#     - institution: OpenGL, WebGL, Blender, Unity
+#       year: Graphics
+#     - institution: Korean, English, Japanese
+#       year: Language
     
