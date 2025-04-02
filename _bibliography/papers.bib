@@ -13,19 +13,19 @@
 @article{hwang2025goal,
   title={Goal-Driven Human Motion Generation in Diverse Tasks},
   author={Hwang, Inwoo and Bae, Jinseok and Lim, Donggeun and Kim, Young Min},
-  year={2025},
+  year={HuMoGen, 2025},
   abstract = {We propose a framework for goal-driven human motion generation, which can synthesize interaction-rich scenarios. Given the goal positions for key joints, our pipeline automatically generates natural full-body motion that approaches the target in cluttered environments. Our pipeline solves the complex constraints in a tractable formulation by disentangling the process of motion generation into two stages. The first stage computes the trajectory of the key joints like hands and feet to encourage the character to naturally approach the target position while avoiding possible physical violation. We demonstrate that diffusion-based guidance sampling can flexibly adapt to the local scene context while satisfying goal conditions. Then the subsequent second stage can easily generate plausible full-body motion that traverses the key joint trajectories. The proposed pipeline applies to various scenarios that have to concurrently account for 3D scene geometry and body joint configurations.},
   bibtex_show = {true},
-  abbr = {CVPR Workshop (HuMoGen)},
+  abbr = {CVPR Workshop},
 }
 
 @article{jang2025audio,
   title={Audio-aided Character Control for Inertial Measurement Tracking},
   author={Jang, Hojun and Bae, Jinseok and Kim, Young Min},
-  year={2025},
+  year={Short Paper, 2025},
   abstract = {Physics-based character control generates realistic motion dynamics by leveraging kinematic priors from large-scale data within a simulation engine. The simulated motion respects physical plausibility, while dynamic cues like contacts and forces guide compelling human-scene interaction. However, leveraging audio cues, which can capture physical contacts in a cost-effective way, has been less explored in animating human motions. In this work, we demonstrate that audio inputs can enhance accuracy in predicting footsteps and capturing human locomotion dynamics. Experiments validate that audio-aided control from sparse observations (e.g., an IMU sensor on a VR headset) enhances the prediction accuracy of contact dynamics and motion tracking, offering a practical auxiliary signal for robotics, gaming, and virtual environments.},
   bibtex_show = {true},
-  abbr = {Eurographics Short},
+  abbr = {Eurographics},
 }
 
 @article{bae2025hybrid,
@@ -54,7 +54,6 @@
 @article{bae2023pmp,
   title={PMP: Learning to Physically Interact with Environments using Part-wise Motion Priors},
   author={Bae, Jinseok and Won, Jungdam and Lim, Donggeun and Min, Cheol-Hui and Kim, Young Min},
-  journal={arXiv preprint arXiv:2305.03249},
   year={2023},
   abstract = {We present a method to animate a character incorporating multiple part-wise motion priors (PMP). While previous works allow creating realistic articulated motions from reference data, the range of motion is largely limited by the available samples. Especially for the interaction-rich scenarios, it is impractical to attempt acquiring every possible interacting motion, as the combination of physical parameters increases exponentially. The proposed PMP allows us to assemble multiple part skills to animate a character, creating a diverse set of motions with different combinations of existing data. In our pipeline, we can train an agent with a wide range of part-wise priors. Therefore, each body part can obtain a kinematic insight of the style from the motion captures, or at the same time extract dynamics-related information from the additional part-specific simulation. For example, we can first train a general interaction skill, e.g. grasping, only for the dexterous part, and then combine the expert trajectories from the pre-trained agent with the kinematic priors of other limbs. Eventually, our whole-body agent learns a novel physical interaction skill even with the absence of the object trajectories in the reference motion sequence. },
   bibtex_show = {true},
@@ -68,7 +67,6 @@
 @inproceedings{bae2022neural,
   title={Neural marionette: Unsupervised learning of motion skeleton and latent dynamics from volumetric video},
   author={Bae, Jinseok and Jang, Hojun and Min, Cheol-Hui and Choi, Hyungun and Kim, Young Min},
-  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
   volume={36},
   number={1},
   pages={86--94},
@@ -81,11 +79,10 @@
 }
 
 @inproceedings {kim2021autorigging,
-  booktitle = {Eurographics 2021 - Short Papers},
   editor = {Theisel, Holger and Wimmer, Michael},
   title = {Auto-rigging 3D Bipedal Characters in Arbitrary Poses},
   author = {Kim, Jeonghwan and Son, Hyeontae and Bae, Jinseok and Kim, Young Min},
-  year = {2021},
+  year = {Short Paper, 2021},
   publisher = {The Eurographics Association},
   ISSN = {1017-4656},
   ISBN = {978-3-03868-133-5},
