@@ -13,19 +13,19 @@
 @article{hwang2025goal,
   title={Goal-Driven Human Motion Generation in Diverse Tasks},
   author={Hwang, Inwoo and Bae, Jinseok and Lim, Donggeun and Kim, Young Min},
-  year={HuMoGen, 2025},
+  year={2025},
   abstract = {We propose a framework for goal-driven human motion generation, which can synthesize interaction-rich scenarios. Given the goal positions for key joints, our pipeline automatically generates natural full-body motion that approaches the target in cluttered environments. Our pipeline solves the complex constraints in a tractable formulation by disentangling the process of motion generation into two stages. The first stage computes the trajectory of the key joints like hands and feet to encourage the character to naturally approach the target position while avoiding possible physical violation. We demonstrate that diffusion-based guidance sampling can flexibly adapt to the local scene context while satisfying goal conditions. Then the subsequent second stage can easily generate plausible full-body motion that traverses the key joint trajectories. The proposed pipeline applies to various scenarios that have to concurrently account for 3D scene geometry and body joint configurations.},
   bibtex_show = {true},
-  abbr = {CVPR Workshop},
+  abbr = {CVPR Workshop (HuMoGen)},
 }
 
 @article{jang2025audio,
   title={Audio-aided Character Control for Inertial Measurement Tracking},
   author={Jang, Hojun and Bae, Jinseok and Kim, Young Min},
-  year={Short Paper, 2025},
+  year={2025},
   abstract = {Physics-based character control generates realistic motion dynamics by leveraging kinematic priors from large-scale data within a simulation engine. The simulated motion respects physical plausibility, while dynamic cues like contacts and forces guide compelling human-scene interaction. However, leveraging audio cues, which can capture physical contacts in a cost-effective way, has been less explored in animating human motions. In this work, we demonstrate that audio inputs can enhance accuracy in predicting footsteps and capturing human locomotion dynamics. Experiments validate that audio-aided control from sparse observations (e.g., an IMU sensor on a VR headset) enhances the prediction accuracy of contact dynamics and motion tracking, offering a practical auxiliary signal for robotics, gaming, and virtual environments.},
   bibtex_show = {true},
-  abbr = {Eurographics},
+  abbr = {Eurographics Short Paper},
 }
 
 @article{bae2025hybrid,
@@ -64,12 +64,9 @@
   code = {https://github.com/jinseokbae/pmp},
 }
 
-@inproceedings{bae2022neural,
+@article{bae2022neural,
   title={Neural marionette: Unsupervised learning of motion skeleton and latent dynamics from volumetric video},
   author={Bae, Jinseok and Jang, Hojun and Min, Cheol-Hui and Choi, Hyungun and Kim, Young Min},
-  volume={36},
-  number={1},
-  pages={86--94},
   year={2022},
   abstract = {We present Neural Marionette, an unsupervised approach that discovers the skeletal structure from a dynamic sequence and learns to generate diverse motions that are consistent with the observed motion dynamics. Given a video stream of point cloud observation of an articulated body under arbitrary motion, our approach discovers the unknown low-dimensional skeletal relationship that can effectively represent the movement. Then the discovered structure is utilized to encode the motion priors of dynamic sequences in a latent structure, which can be decoded to the relative joint rotations to represent the full skeletal motion. Our approach works without any prior knowledge of the underlying motion or skeletal structure, and we demonstrate that the discovered structure is even comparable to the hand-labeled ground truth skeleton in representing a 4D sequence of motion. The skeletal structure embeds the general semantics of possible motion space that can generate motions for diverse scenarios. We verify that the learned motion prior is generalizable to the multi-modal sequence generation, interpolation of two poses, and motion retargeting to a different skeletal structure. },
   bibtex_show = {true},
@@ -78,18 +75,13 @@
   code = {https://github.com/jinseokbae/neural_marionette},
 }
 
-@inproceedings {kim2021autorigging,
-  editor = {Theisel, Holger and Wimmer, Michael},
+@article {kim2021autorigging,
   title = {Auto-rigging 3D Bipedal Characters in Arbitrary Poses},
   author = {Kim, Jeonghwan and Son, Hyeontae and Bae, Jinseok and Kim, Young Min},
-  year = {Short Paper, 2021},
-  publisher = {The Eurographics Association},
-  ISSN = {1017-4656},
-  ISBN = {978-3-03868-133-5},
-  DOI = {10.2312/egs.20211023},
+  year = {2021},
   abstract = {We present an end-to-end algorithm that can automatically rig a given 3D character such that it is ready for 3D animation. The animation of a virtual character requires the skeletal motion defined with bones and joints, and the corresponding deformation of the mesh represented with skin weights. While the conventional animation pipeline requires the initial 3D character to be in the predefined default pose, our pipeline can rig a 3D character in arbitrary pose. We handle the increased ambiguity by fixing the skeletal topology and solving for the full deformation space. After the skeletal positions and orientations are fully discovered, we can deform the provided 3D character into the default pose, from which we can animate the character with the help of recent motion-retargeting techniques. Our results show that we can successfully animate initially deformed characters, which was not possible with previous works.},
   bibtex_show={true},
-  abbr = {EuroGraphics},
+  abbr = {Eurographics Short Paper},
 	paper = {https://diglib.eg.org/handle/10.2312/egs20211023},
   video = {https://www.youtube.com/watch?v=1UVNbxYLkE8},
   code = {https://github.com/whitealex95/autorigging-bipedal}
@@ -98,8 +90,6 @@
 @article{min2021gatsbi,
   title={Gatsbi: Generative agent-centric spatio-temporal object interaction},
   author={Min, Cheol-Hui and Bae, Jinseok and Lee, Junho and Kim, Young Min},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={3074--3083},
   year={2021},
   abstract = {We present GATSBI, a generative model that can transform a sequence of raw observations into a structured latent representation that fully captures the spatio-temporal context of the agent's actions. In vision-based decision-making scenarios, an agent faces complex high-dimensional observations where multiple entities interact with each other. The agent requires a good scene representation of the visual observation that discerns essential components and consistently propagates along the time horizon. Our method, GATSBI, utilizes unsupervised object-centric scene representation learning to separate an active agent, static background, and passive objects. GATSBI then models the interactions reflecting the causal relationships among decomposed entities and predicts physically plausible future states. Our model generalizes to a variety of environments where different types of robots and objects dynamically interact with each other. We show GATSBI achieves superior performance on scene decomposition and video prediction compared to its state-of-the-art counterparts.},
 	bibtex_show={true},
