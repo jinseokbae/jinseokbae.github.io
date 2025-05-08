@@ -18,5 +18,5 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-I'm a 3rd-year Ph.D. student at Seoul National University, advised by Professor [Young Min Kim](https://3d.snu.ac.kr/members/). 
+I'm a 3rd-year Ph.D. candidate at Seoul National University, advised by Professor [Young Min Kim](https://3d.snu.ac.kr/members/). 
 My research focuses on Computer Animation and Robotics.
