@@ -1,15 +1,5 @@
 ---
 ---
-
-@article{bae2025plt,
-  title={PLT: Part-Wise Latent Tokens as Adaptable Motion Priors for Physically Simulated Characters},
-  author={Bae, Jinseok and Lee, Younghwan and Lim, Donggeun and Kim, Young Min},
-  year={2025},
-  abstract = {Physically simulated characters can learn highly natural full-body motion guided by motion capture datasets. However, the range of motion is limited to the existing high-quality datasets, and cannot effectively adapt to challenging scenarios. We propose a novel policy architecture that learns part-wise motion skills, where individual parts can be separately extended and combined for unobserved settings. Our method employs a set of part-specific codebooks, which robustly capture motion dynamics without catastrophic collapse or forgetting. This structured decomposition allows intuitive control over the character's behavior and dynamic exploration for a novel combination of part-wise motion. We further incorporate a refinement network compensating for subtle discrepancies in the disjoint discrete tokens, thus improving motion quality and stability. Our extensive evaluations show that our part-wise latent token achieves superior performance in imitating motions, even those from unseen distribution. We also validate our method in challenging tasks, including body tracking, navigation on complex terrains, and point-goal navigation with damaged body parts. Finally, we introduce a part-wise expansion of motion priors, where the physically simulated character incrementally adapts partial motion and produces unique combinations of whole-body motion, significantly diversifying motions.},
-  bibtex_show = {true},
-  abbr = {SIGGRAPH},
-}
-
 @article{bae2025less,
   title={Less is More: Improving Motion Diffusion Models with Sparse Keyframes},
   author={Bae, Jinseok and Hwang, Inwoo and Lee, Young Yoon and Guo, Ziyu and Liu, Joseph and Ben-Shabat, Yizhak and Kim, Young Min and Kapadia, Mubbasir},
@@ -18,6 +8,25 @@
   bibtex_show = {true},
   abbr = {Arxiv},
   paper = {https://arxiv.org/abs/2503.13859},
+}
+
+@article{hwang2025flexible,
+  title={Motion Synthesis with Sparse and Flexible Keyjoint Control},
+  author={Hwang, Inwoo and Bae, Jinseok and Lim, Donggeun and Kim, Young Min},
+  year={2025},
+  abstract = {Creating expressive character animations is labor-intensive, requiring intricate manual adjustment of animators across space and time. Previous works on controllable motion generation often rely on a predefined set of dense spatio-temporal specifications (e.g., dense pelvis trajectories with exact per-frame timing), limiting practicality for animators. To process high-level intent and intuitive control in diverse scenarios, we propose a practical controllable motions synthesis framework that respects sparse and flexible keyjoint signals. Our approach employs a decomposed diffusion-based motion synthesis framework that first synthesizes keyjoint movements from sparse input control signals and then synthesizes full-body motion based on the completed keyjoint trajectories. The low-dimensional keyjoint movements can easily adapt to various control signal types, such as end-effector position for diverse goal-driven motion synthesis, or incorporate functional constraints on a subset of keyjoints. Additionally, we introduce a time-agnostic control formulation, eliminating the need for frame-specific timing annotations and enhancing control flexibility. Then, the shared second stage can synthesize a natural whole-body motion that precisely satisfies the task requirement from dense keyjoint movements. We demonstrate the effectiveness of sparse and flexible keyjoint control through comprehensive experiments on diverse datasets and scenarios.},
+  bibtex_show = {true},
+  abbr = {Arxiv},
+  paper = {https://arxiv.org/abs/2503.15557},
+}
+
+@article{bae2025plt,
+  title={PLT: Part-Wise Latent Tokens as Adaptable Motion Priors for Physically Simulated Characters},
+  author={Bae, Jinseok and Lee, Younghwan and Lim, Donggeun and Kim, Young Min},
+  year={2025},
+  abstract = {Physically simulated characters can learn highly natural full-body motion guided by motion capture datasets. However, the range of motion is limited to the existing high-quality datasets, and cannot effectively adapt to challenging scenarios. We propose a novel policy architecture that learns part-wise motion skills, where individual parts can be separately extended and combined for unobserved settings. Our method employs a set of part-specific codebooks, which robustly capture motion dynamics without catastrophic collapse or forgetting. This structured decomposition allows intuitive control over the character's behavior and dynamic exploration for a novel combination of part-wise motion. We further incorporate a refinement network compensating for subtle discrepancies in the disjoint discrete tokens, thus improving motion quality and stability. Our extensive evaluations show that our part-wise latent token achieves superior performance in imitating motions, even those from unseen distribution. We also validate our method in challenging tasks, including body tracking, navigation on complex terrains, and point-goal navigation with damaged body parts. Finally, we introduce a part-wise expansion of motion priors, where the physically simulated character incrementally adapts partial motion and produces unique combinations of whole-body motion, significantly diversifying motions.},
+  bibtex_show = {true},
+  abbr = {SIGGRAPH},
 }
 
 @article{hwang2025goal,
