@@ -6,7 +6,7 @@
   year={2025},
   abstract = {Recent advances in motion diffusion models have led to remarkable progress in diverse motion generation tasks, including text-to-motion synthesis. However, existing approaches represent motions as dense frame sequences, requiring the model to process redundant or less informative frames. The processing of dense animation frames imposes significant training complexity, especially when learning intricate distributions of large motion datasets even with modern neural architectures. This severely limits the performance of generative motion models for downstream tasks. Inspired by professional animators who mainly focus on sparse keyframes, we propose a novel diffusion framework explicitly designed around sparse and geometrically meaningful keyframes. Our method reduces computation by masking non-keyframes and efficiently interpolating missing frames. We dynamically refine the keyframe mask during inference to prioritize informative frames in later diffusion steps. Extensive experiments show that our approach consistently outperforms state-of-the-art methods in text alignment and motion realism, while also effectively maintaining high performance at significantly fewer diffusion steps. We further validate the robustness of our framework by using it as a generative prior and adapting it to different downstream tasks. Source code and pre-trained models will be released upon acceptance.},
   bibtex_show = {true},
-  abbr = {Arxiv},
+  abbr = {ICCV},
   paper = {https://arxiv.org/abs/2503.13859},
 }
 
@@ -16,8 +16,17 @@
   year={2025},
   abstract = {Creating expressive character animations is labor-intensive, requiring intricate manual adjustment of animators across space and time. Previous works on controllable motion generation often rely on a predefined set of dense spatio-temporal specifications (e.g., dense pelvis trajectories with exact per-frame timing), limiting practicality for animators. To process high-level intent and intuitive control in diverse scenarios, we propose a practical controllable motions synthesis framework that respects sparse and flexible keyjoint signals. Our approach employs a decomposed diffusion-based motion synthesis framework that first synthesizes keyjoint movements from sparse input control signals and then synthesizes full-body motion based on the completed keyjoint trajectories. The low-dimensional keyjoint movements can easily adapt to various control signal types, such as end-effector position for diverse goal-driven motion synthesis, or incorporate functional constraints on a subset of keyjoints. Additionally, we introduce a time-agnostic control formulation, eliminating the need for frame-specific timing annotations and enhancing control flexibility. Then, the shared second stage can synthesize a natural whole-body motion that precisely satisfies the task requirement from dense keyjoint movements. We demonstrate the effectiveness of sparse and flexible keyjoint control through comprehensive experiments on diverse datasets and scenarios.},
   bibtex_show = {true},
-  abbr = {Arxiv},
+  abbr = {ICCV},
   paper = {https://arxiv.org/abs/2503.15557},
+}
+
+@article{lim2025event,
+  title={Event-Driven Storytelling with Multiple Lifelike Humans in a 3D scene},
+  author={Lim, Donggeun and Bae, Jinseok and Hwang, Inwoo and Lee, Seungmin and Lee, Hwanhee and Kim, Young Min},
+  year={2025},
+  abstract = {In this work, we propose a framework that creates a lively virtual dynamic scene with contextual motions of multiple humans. Generating multi-human contextual motion requires holistic reasoning over dynamic relationships among human-human and human-scene interactions. We adapt the power of a large language model (LLM) to digest the contextual complexity within textual input and convert the task into tangible subproblems such that we can generate multi-agent behavior beyond the scale that was not considered before. Specifically, our event generator formulates the temporal progression of a dynamic scene into a sequence of small events. Each event calls for a well-defined motion involving relevant characters and objects. Next, we synthesize the motions of characters at positions sampled based on spatial guidance. We employ a high-level module to deliver scalable yet comprehensive context, translating events into relative descriptions that enable the retrieval of precise coordinates. As the first to address this problem at scale and with diversity, we offer a benchmark to assess diverse aspects of contextual reasoning. Benchmark results and user studies show that our framework effectively captures scene context with high scalability.},
+  bibtex_show = {true},
+  abbr = {ICCV},
 }
 
 @article{bae2025plt,
