@@ -27,6 +27,16 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Research Scientist Intern
+      institution: Meta, United States
+      year: 2025.08 - 2026.02
+      # description:
+      #   - Description 1.
+      #   - Description 2.
+      #   - title: Description 3.
+      #     contents:
+      #       - Sub-description 1.
+      #       - Sub-description 2.
     - title: Research Intern
       institution: Roblox, United States
       year: 2024.06 - 2024.09
