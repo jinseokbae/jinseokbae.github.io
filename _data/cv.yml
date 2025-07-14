@@ -29,7 +29,7 @@
   contents:
     - title: Research Scientist Intern
       institution: Meta, United States
-      year: 2025.08 - 2026.02
+      year: 2025.08 - 2026.02 (Upcoming)
       # description:
       #   - Description 1.
       #   - Description 2.
@@ -49,7 +49,7 @@
       #       - Sub-description 2.
     - title: AI Researcher
       institution: LG AI Research, Republic of Korea
-      year: 2022.01 - 2023.07
+      year: 2022.01 - 2022.07
       # description:
       #   - Description 1.
       #   - Description 2.
@@ -71,6 +71,10 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - title: Honoralbe Mention, Changhae Young Researcher Award
+      institution: Korea Computer Graphics Society
+      year: 2025
+
     - title: 3rd Place, Simulated Humanoid Robot Wrestling Competition
       institution: Team Yeti, International Conference on Robotics and Automation (ICRA)
       year: 2023
